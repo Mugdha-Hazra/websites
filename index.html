@@ -1,53 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Hello, Space Friends! </title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile | Mugdha Hazra</title>
+    <title>Hello Friends</title>
+    <link rel="stylesheet" type="text/CSS" href="style.css">
+
 </head>
+<style>
+    body {
+        background-color: blueviolet;
+        background-image: url('https://storage.needpix.com/rsynced_images/lilac-design-background.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+</style>
 
 <body>
+
+    <h1>My First JavaScript</h1>
+    <p>Here, a JavaScript changes the value of the src (source) attribute of an image.</p>
+
+    <script>
+        function light(sw) {
+            var pic;
+            if (sw == 0) {
+                pic = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQGj8qZuUKCXwKPAl4bEif18QBjhhhYdj_iQ&usqp=CAU"
+            } else {
+                pic = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQOZq24Gn_xmN-2DHSubiyErvDaeQE177g7yw&usqp=CAU"
+
+            }
+            document.getElementById('myImage').src = pic;
+        }
+    </script>
+
+    <img id="myImage" src="https://icdn2.digitaltrends.com/image/digitaltrends/lightbulb.jpg" width="100" height="180">
+
+    <p>
+        <button type="button" onclick="light(1)">Light On</button>
+        <button type="button" onclick="light(0)">Light Off</button>
+    </p>
+
+    <p style="text-align: center; font-family: 'Courier New', Courier, monospace; font-size: 80px;font-weight: bolder;">
+        Mugdha Hazra</p>
+    <p style="text-align: center; color: pink;">This is my official profile page.</p>
+    <h1>My first website also my first web works.</h1>
+    <h2 style="border:2px solid darkblue;"> Hello Peeps!</h2>
+    <p> &#128512; </p>
+    <h2 style="background-color:hsla(9, 100%, 64%, 0.5);">I'm Mugdha Hazra. How you guys are doing ? Hope you all are fit and fine . Wishing for your good health .</h2>
+    <p>It's really a nice experience.</p>
+    <img src="https://oyster.ignimgs.com/wordpress/stg.ign.com/2020/03/sale_25313_primary_image_wide.jpg?fit=bounds&width=640&height=480" alt=" The Purple Coder ">
+    <h2>Animated Images</h2>
+
+    <p>Some intresting moving images:</p>
+
+    <img src="https://images.squarespace-cdn.com/content/v1/5769fc401b631bab1addb2ab/1541580611624-TE64QGKRJG8SWAIUS7NS/ke17ZwdGBToddI8pDm48kPoswlzjSVMM-SxOp7CV59BZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PI6FXy8c9PWtBlqAVlUS5izpdcIXDZqDYvprRqZ29Pw0o/coding-freak.gif"
+        alt="Computer man" style="width:220px;height:198px;">
+
+
+
+    <img src="https://media.tenor.com/images/7db4eaa3e47272c8e58ee018fc390b7d/tenor.gif" alt="girl coding-freak">
+    <span style='font-size:100px;'>&#128512;</span>
+    <p>Excited na?? &#128512;</p>
+    <p>Yupp very Excited!! &#x1F600;</p>
     <nav>
+        <ol> </ol>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="aboutme.html">About me</a></li>
-            <li><a href="contactme.html">Contact me</a></li>
+
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="contactme.html">Contact Me</a></li>
         </ul>
     </nav>
-    <h1>Space Doggo Adventures</h1>
-    <p>This is the first Space Doggo Adventure!</p>
-    <img src="https://i.imgur.com/cmtv1kO.png" alt="Space Doggo and the moon">
-    <h3>Space Doggo Budget</h3>
-    <table>
-        <caption class="title">Jan 1st - Feb 14th</caption>
-        <tr>
-            <th>Expenses</th>
-            <th>Cost</th>
-        </tr>
-        <tr>
-            <td>Fuel costs</td>
-            <td>6000 BDG</td>
-        </tr>
-        <tr>
-            <td>Hotel</td>
-            <td>1500 BDG</td>
-        </tr>
-        <tr>
-            <td>Fun</td>
-            <td>900 BDG</td>
-        </tr>
-        <tr>
-            <td>Food</td>
-            <td>500 BDG</td>
-        </tr>
-    </table>
-    <h2>Leave your awesome comment</h2>
-    <form>
-        <input placeholder="Your name" type="text" name="myfriendname">
-        <input placeholder="Your email address" type="email" name="email-address">
-        <textarea name="comment">Add your awesome comment here</textarea>
-        <input type="submit" name="submit" value="Send">
-    </form>
+    <h1>My first SVG</h1>
+
+    <svg width="100" height="100">
+       <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="blue" />
+       Sorry, your browser does not support inline SVG.
+    </svg>
+    <h2>Your insight would be much appreciated. Kindly leave your awesome comments :)</h2>
+    <form>I Wanna Know About You Guys!!!</form>
+    <input placeholder="Your name" type="text" name="name">
+    <input placeholder="Your birth year" type="date" name="birthday">
+    <input placeholder="Present time" type="time" name="game_time">
+    <input placeholder="Your email address" type="email" name="email_address">
+    <input placeholder="Your website link" type="url" name="website">
+    <input placeholder="Your contact no." type="tel" name="phone_no.">
+    <textarea name="comment">Add your awesome comment here!</textarea>
+    <input type="submit" name="submit" value="send us">
+
+
 </body>
 
 </html>
